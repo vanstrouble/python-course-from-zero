@@ -1,0 +1,491 @@
+02:18:59 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x10278e500; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:20:11 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x101aa6500; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:20:11 PM: DEBUG [connection.py:39] Se abrió correctamente el cursor: <cursor object at 0x101ce9300; closed: 0>
+02:20:56 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1052717e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:20:56 PM: DEBUG [connection.py:39] Se abrió correctamente el cursor: <cursor object at 0x105be87c0; closed: 0>
+02:21:14 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x104f517e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:22:16 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1010b17e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:22:22 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1049357e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:26:25 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x10098d7e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:26:25 PM: DEBUG [dao_person.py:34] 
+            ID: 1, Nombre: Aideé,
+            Apellido: Berenice, Email: Correa
+        
+02:26:25 PM: DEBUG [dao_person.py:34] 
+            ID: 2, Nombre: Pedro,
+            Apellido: Antonio, Email: Vázquez
+        
+02:26:25 PM: DEBUG [dao_person.py:34] 
+            ID: 3, Nombre: Jessica,
+            Apellido: None, Email: Alarcón
+        
+02:26:25 PM: DEBUG [dao_person.py:34] 
+            ID: 4, Nombre: Guillermo,
+            Apellido: Francisco, Email: Contreras
+        
+02:26:25 PM: DEBUG [dao_person.py:34] 
+            ID: 5, Nombre: Ma,
+            Apellido: Belén, Email: González
+        
+02:26:25 PM: DEBUG [dao_person.py:34] 
+            ID: 8, Nombre: Pedro,
+            Apellido: , Email: Vázquez
+        
+02:28:07 PM: DEBUG [person.py:52] 
+            ID: 1, Nombre: Aideé,
+            Apellido: Correa, Email: aidee.cov@gmail.com
+        
+02:28:07 PM: DEBUG [person.py:56] 
+            ID: None, Nombre: Aideé,
+            Apellido: Correa, Email: aidee.cov@gmail.com
+        
+02:28:07 PM: DEBUG [person.py:60] 
+            ID: 1, Nombre: None,
+            Apellido: None, Email: None
+        
+02:29:28 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x102c197e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:29:28 PM: DEBUG [dao_person.py:34] 
+            ID: 1, Nombre: Aideé,
+            Apellido: Berenice, Email: Correa
+        
+02:29:28 PM: DEBUG [dao_person.py:34] 
+            ID: 2, Nombre: Pedro,
+            Apellido: Antonio, Email: Vázquez
+        
+02:29:28 PM: DEBUG [dao_person.py:34] 
+            ID: 3, Nombre: Jessica,
+            Apellido: None, Email: Alarcón
+        
+02:29:28 PM: DEBUG [dao_person.py:34] 
+            ID: 4, Nombre: Guillermo,
+            Apellido: Francisco, Email: Contreras
+        
+02:29:28 PM: DEBUG [dao_person.py:34] 
+            ID: 5, Nombre: Ma,
+            Apellido: Belén, Email: González
+        
+02:29:28 PM: DEBUG [dao_person.py:34] 
+            ID: 8, Nombre: Pedro,
+            Apellido: , Email: Vázquez
+        
+02:40:26 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x102ab17e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:40:28 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1055657e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:44:55 PM: DEBUG [person.py:61] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+02:44:55 PM: DEBUG [person.py:66] 
+            ID: None, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+02:44:55 PM: DEBUG [person.py:70] 
+            ID: 1, Nombre: None, Segundo nombre: None
+            Apellido: None, Nacimiento: None
+        
+02:45:18 PM: DEBUG [person.py:61] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+02:45:41 PM: DEBUG [person.py:66] 
+            ID: None, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+02:46:12 PM: DEBUG [person.py:70] 
+            ID: 1, Nombre: None, Segundo nombre: None
+            Apellido: None, Nacimiento: None
+        
+02:46:27 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x104aa97e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:46:27 PM: DEBUG [dao_person.py:34] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: None
+        
+02:46:27 PM: DEBUG [dao_person.py:34] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: None
+        
+02:46:27 PM: DEBUG [dao_person.py:34] 
+            ID: 3, Nombre: Jessica, Segundo nombre: None
+            Apellido: Alarcón, Nacimiento: None
+        
+02:46:27 PM: DEBUG [dao_person.py:34] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: None
+        
+02:46:27 PM: DEBUG [dao_person.py:34] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: None
+        
+02:46:27 PM: DEBUG [dao_person.py:34] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: None
+        
+02:47:31 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x10636e500; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:47:31 PM: DEBUG [dao_person.py:34] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+02:47:31 PM: DEBUG [dao_person.py:34] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+02:47:31 PM: DEBUG [dao_person.py:34] 
+            ID: 3, Nombre: Jessica, Segundo nombre: None
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+02:47:31 PM: DEBUG [dao_person.py:34] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+02:47:31 PM: DEBUG [dao_person.py:34] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+02:47:31 PM: DEBUG [dao_person.py:34] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+02:55:22 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x102b417e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:55:22 PM: DEBUG [dao_person.py:34] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+02:55:22 PM: DEBUG [dao_person.py:34] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+02:55:22 PM: DEBUG [dao_person.py:34] 
+            ID: 3, Nombre: Jessica, Segundo nombre: None
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+02:55:22 PM: DEBUG [dao_person.py:34] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+02:55:22 PM: DEBUG [dao_person.py:34] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+02:55:22 PM: DEBUG [dao_person.py:34] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+02:58:53 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x100d517e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:58:53 PM: DEBUG [dao_person.py:34] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+02:58:53 PM: DEBUG [dao_person.py:34] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+02:58:53 PM: DEBUG [dao_person.py:34] 
+            ID: 3, Nombre: Jessica, Segundo nombre: None
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+02:58:53 PM: DEBUG [dao_person.py:34] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+02:58:53 PM: DEBUG [dao_person.py:34] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+02:58:53 PM: DEBUG [dao_person.py:34] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:12:53 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x104e417e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:12:53 PM: DEBUG [dao_person.py:34] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:12:53 PM: DEBUG [dao_person.py:34] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:12:53 PM: DEBUG [dao_person.py:34] 
+            ID: 3, Nombre: Jessica, Segundo nombre: None
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:12:53 PM: DEBUG [dao_person.py:34] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:12:53 PM: DEBUG [dao_person.py:34] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:12:53 PM: DEBUG [dao_person.py:34] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:12:53 PM: DEBUG [dao_person.py:34] 
+            ID: 9, Nombre: Blanca, Segundo nombre: Estela
+            Apellido: Rivera, Nacimiento: 1998-11-07
+        
+03:29:39 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1047457e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:30:45 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1008fd7e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:33:04 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1011c57e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:33:04 PM: DEBUG [dao_person.py:36] Persona insertada: 
+            ID: None, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+03:33:04 PM: DEBUG [dao_person.py:44] Personas insertadas 1
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 3, Nombre: Jessica, Segundo nombre: None
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 9, Nombre: Blanca, Segundo nombre: Estela
+            Apellido: Rivera, Nacimiento: 1998-11-07
+        
+03:33:04 PM: DEBUG [dao_person.py:49] 
+            ID: 10, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+03:46:42 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1013cd150; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:47:22 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x10490d150; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:47:49 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x1016d9150; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:47:49 PM: DEBUG [dao_person.py:46] Persona actualizada: 
+            ID: 3, Nombre: Jessica, Segundo nombre: 
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:47:49 PM: DEBUG [dao_person.py:59] Personas actualizadas: 1
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 3, Nombre: Jessica, Segundo nombre: 
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 9, Nombre: Blanca, Segundo nombre: Estela
+            Apellido: Rivera, Nacimiento: 1998-11-07
+        
+03:47:49 PM: DEBUG [dao_person.py:64] 
+            ID: 10, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+03:59:54 PM: DEBUG [connection.py:26] Conexión exitosa: <connection object at 0x10572d7e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:59:54 PM: DEBUG [dao_person.py:54] Persona eliminada: 
+            ID: 9, Nombre: None, Segundo nombre: None
+            Apellido: None, Nacimiento: None
+        
+03:59:54 PM: DEBUG [dao_person.py:72] Personas eliminadas: 1
+03:59:54 PM: DEBUG [dao_person.py:77] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:59:54 PM: DEBUG [dao_person.py:77] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:59:54 PM: DEBUG [dao_person.py:77] 
+            ID: 3, Nombre: Jessica, Segundo nombre: 
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:59:54 PM: DEBUG [dao_person.py:77] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:59:54 PM: DEBUG [dao_person.py:77] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:59:54 PM: DEBUG [dao_person.py:77] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:59:54 PM: DEBUG [dao_person.py:77] 
+            ID: 10, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+02:35:17 PM: ERROR [connection.py:32] Ocurrió un error al obtener el pool: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+02:42:34 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x104877ca0>
+02:42:34 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1046757e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:42:34 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x104675fc0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:07 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x102fd3ca0>
+02:45:07 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x102f117e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:07 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x102f11fc0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:07 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x102f11a80; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:07 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x102f12110; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:07 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x102f12260; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:25 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x1015b7ee0>
+02:45:25 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1013a57e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:25 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1013a5fc0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:25 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1013a5a80; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:25 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1013a6110; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+02:45:25 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1013a6260; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:03:24 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x105692e90>
+03:03:24 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x104d557e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:03:24 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x104d557e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:03:24 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x104d557e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:22:16 PM: DEBUG [cursor_pool.py:11] Inicio del método with __enter__
+03:22:16 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x100adbb80>
+03:22:16 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1008cd7e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:22:16 PM: DEBUG [cursor_pool.py:30] Dentro del bloque with
+03:22:16 PM: DEBUG [cursor_pool.py:32] [(1, 'Aideé', 'Berenice', 'Correa', datetime.date(1997, 9, 3), datetime.date(2022, 7, 20)), (2, 'Pedro', 'Antonio', 'Vázquez', datetime.date(1998, 12, 9), datetime.date(2022, 7, 20)), (8, 'Pedro', '', 'Vázquez', datetime.date(1972, 4, 16), datetime.date(2022, 7, 21)), (5, 'Ma', 'Belén', 'González', datetime.date(1971, 1, 30), datetime.date(2022, 7, 21)), (4, 'Guillermo', 'Francisco', 'Contreras', datetime.date(1999, 2, 8), datetime.date(2022, 7, 20)), (10, 'Ana', 'María', 'González', datetime.date(1973, 4, 16), datetime.date(2022, 7, 26)), (3, 'Jessica', '', 'Alarcón', datetime.date(1997, 10, 24), datetime.date(2022, 7, 20))]
+03:22:16 PM: DEBUG [cursor_pool.py:17] Se ejecuta método __exit__
+03:22:16 PM: DEBUG [cursor_pool.py:23] Commit de la transacción
+03:22:16 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x1008cd7e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:31:32 PM: DEBUG [cursor_pool.py:11] Inicio del método with __enter__
+03:31:32 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x10623cb20>
+03:31:32 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1054e17e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:31:32 PM: DEBUG [cursor_pool.py:17] Se ejecuta método __exit__
+03:31:32 PM: DEBUG [cursor_pool.py:23] Commit de la transacción
+03:31:32 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x1054e17e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:31:32 PM: DEBUG [dao_person.py:73] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:31:32 PM: DEBUG [dao_person.py:73] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:31:32 PM: DEBUG [dao_person.py:73] 
+            ID: 3, Nombre: Jessica, Segundo nombre: 
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:31:32 PM: DEBUG [dao_person.py:73] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:31:32 PM: DEBUG [dao_person.py:73] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:31:32 PM: DEBUG [dao_person.py:73] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:31:32 PM: DEBUG [dao_person.py:73] 
+            ID: 10, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+03:35:42 PM: DEBUG [cursor_pool.py:11] Inicio del método with __enter__
+03:35:42 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x1052b2f80>
+03:35:42 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1049697e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:35:42 PM: DEBUG [dao_person.py:34] Persona insertada: 
+            ID: None, Nombre: Silvia, Segundo nombre: Elizabeth
+            Apellido: Amaro, Nacimiento: 1998-10-02
+        
+03:35:42 PM: DEBUG [cursor_pool.py:17] Se ejecuta método __exit__
+03:35:42 PM: DEBUG [cursor_pool.py:23] Commit de la transacción
+03:35:42 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x1049697e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:35:42 PM: DEBUG [dao_person.py:58] Personas insertadas 1
+03:35:42 PM: DEBUG [cursor_pool.py:11] Inicio del método with __enter__
+03:35:42 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1049697e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:35:42 PM: DEBUG [cursor_pool.py:17] Se ejecuta método __exit__
+03:35:42 PM: DEBUG [cursor_pool.py:23] Commit de la transacción
+03:35:42 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x1049697e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 3, Nombre: Jessica, Segundo nombre: 
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 10, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+03:35:42 PM: DEBUG [dao_person.py:73] 
+            ID: 11, Nombre: Silvia, Segundo nombre: Elizabeth
+            Apellido: Amaro, Nacimiento: 1998-10-02
+        
+03:42:03 PM: DEBUG [cursor_pool.py:11] Inicio del método with __enter__
+03:42:03 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x103a9ad10>
+03:42:03 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1030b97e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:42:03 PM: DEBUG [cursor_pool.py:17] Se ejecuta método __exit__
+03:42:03 PM: DEBUG [cursor_pool.py:23] Commit de la transacción
+03:42:03 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x1030b97e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 3, Nombre: Jessica, Segundo nombre: 
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 10, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+03:42:03 PM: DEBUG [dao_person.py:73] 
+            ID: 11, Nombre: Silvia, Segundo nombre: Elizabeth
+            Apellido: Amaro, Nacimiento: 1998-10-02
+        

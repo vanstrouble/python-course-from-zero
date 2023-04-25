@@ -1,0 +1,38 @@
+03:42:55 PM: DEBUG [cursor_pool.py:11] Inicio del método with __enter__
+03:42:55 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x103dd0b50>
+03:42:55 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1030897e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:42:55 PM: DEBUG [cursor_pool.py:17] Se ejecuta método __exit__
+03:42:55 PM: DEBUG [cursor_pool.py:23] Commit de la transacción
+03:42:55 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x1030897e0; dsn: 'user=vanstrouble password=xxx dbname=test host=localhost port=5432', closed: 0>
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 1, Nombre: Aideé, Segundo nombre: Berenice
+            Apellido: Correa, Nacimiento: 1997-09-03
+        
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 2, Nombre: Pedro, Segundo nombre: Antonio
+            Apellido: Vázquez, Nacimiento: 1998-12-09
+        
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 3, Nombre: Jessica, Segundo nombre: 
+            Apellido: Alarcón, Nacimiento: 1997-10-24
+        
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 4, Nombre: Guillermo, Segundo nombre: Francisco
+            Apellido: Contreras, Nacimiento: 1999-02-08
+        
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 5, Nombre: Ma, Segundo nombre: Belén
+            Apellido: González, Nacimiento: 1971-01-30
+        
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 8, Nombre: Pedro, Segundo nombre: 
+            Apellido: Vázquez, Nacimiento: 1972-04-16
+        
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 10, Nombre: Ana, Segundo nombre: María
+            Apellido: González, Nacimiento: 1973-04-16
+        
+03:42:55 PM: DEBUG [dao_person.py:73] 
+            ID: 11, Nombre: Silvia, Segundo nombre: Elizabeth
+            Apellido: Amaro, Nacimiento: 1998-10-02
+        

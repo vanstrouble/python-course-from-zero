@@ -1,0 +1,95 @@
+02:48:05 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x10559ae90>
+02:48:05 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x104c5d7e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:48:05 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x104c5d7e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:48:05 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x104c5d7e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:48:19 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x1039bae90>
+02:48:19 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1030697e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:48:19 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x1030697e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:48:19 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x1030697e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:48:40 PM: DEBUG [cursor_pool.py:11] Inicio del método with __enter__
+02:48:40 PM: DEBUG [connection.py:29] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x1017dbbb0>
+02:48:40 PM: DEBUG [connection.py:40] Conexión obtenida del pool: <connection object at 0x100d797e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:48:40 PM: DEBUG [dao_user.py:19] Seleccionado usuarios
+02:48:40 PM: DEBUG [cursor_pool.py:17] Se ejecuta método __exit__
+02:48:40 PM: ERROR [cursor_pool.py:20] Ocurió una excepción: column "id_user" does not exist
+LINE 1: SELECT * FROM user ORDER BY id_user
+                                    ^
+HINT:  Perhaps you meant to reference the column "user.user".
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x100e6d2c0>
+02:48:40 PM: DEBUG [connection.py:46] Regresamos la conexión al pool: <connection object at 0x100d797e0; dsn: 'user=vanstrouble password=xxx dbname=testing host=localhost port=5432', closed: 0>
+02:49:38 PM: ERROR [cursor_pool.py:20] Ocurió una excepción: column "id_user" does not exist
+LINE 1: SELECT * FROM user ORDER BY id_user
+                                    ^
+HINT:  Perhaps you meant to reference the column "user.user".
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x1056becc0>
+02:51:29 PM: INFO [user_menu_app.py:19] Saliendo de la aplicación
+03:04:27 PM: ERROR [cursor_pool.py:20] Ocurió una excepción: syntax error at or near "user"
+LINE 1: INSERT INTO user(username, password), VALUES('123', NULL)
+                    ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x103403d00>
+03:05:17 PM: ERROR [cursor_pool.py:20] Ocurió una excepción: syntax error at or near ","
+LINE 1: INSERT INTO users(username, password), VALUES('123', NULL)
+                                             ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x103a32d80>
+03:05:46 PM: ERROR [cursor_pool.py:20] Ocurió una excepción: null value in column "password" of relation "users" violates not-null constraint
+DETAIL:  Failing row contains (1, 123, null).
+ <class 'psycopg2.errors.NotNullViolation'> <traceback object at 0x102326f00>
+03:08:47 PM: INFO [user_menu_app.py:39] Saliendo de la aplicación
+03:11:03 PM: INFO [user_menu_app.py:22] 
+REGISTRO DE USUARIO
+03:11:24 PM: INFO [user_menu_app.py:27] Usuarios insertados: 1
+03:11:27 PM: INFO [user_menu_app.py:17] 
+LISTADO DE USUARIOS
+03:11:27 PM: INFO [user_menu_app.py:20] Usuario: 2 
+Nombre: peppapig 
+Contraseña: 123
+03:11:36 PM: INFO [user_menu_app.py:43] 
+Saliendo de la aplicación
+03:15:00 PM: INFO [user_menu_app.py:21] Usuario: 2 
+Nombre: peppapig 
+Contraseña: 123
+03:15:33 PM: INFO [user_menu_app.py:45] Saliendo de la aplicación…
+03:16:15 PM: INFO [user_menu_app.py:28] Usuarios insertados: 1
+03:16:42 PM: INFO [user_menu_app.py:28] Usuarios insertados: 1
+03:16:44 PM: INFO [user_menu_app.py:21] Usuario: 2 
+Nombre: peppapig 
+Contraseña: 123
+03:16:44 PM: INFO [user_menu_app.py:21] Usuario: 3 
+Nombre: pedrovazquezg 
+Contraseña: 54321
+03:16:44 PM: INFO [user_menu_app.py:21] Usuario: 4 
+Nombre: aidee.cov 
+Contraseña: 987
+03:17:48 PM: ERROR [cursor_pool.py:20] Ocurió una excepción: syntax error at or near "user"
+LINE 1: UPDATE user SET username='vanstrouble', password='567' WHERE...
+               ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x1035b06c0>
+03:18:19 PM: INFO [user_menu_app.py:36] Usuarios actualizados: 1
+03:18:22 PM: INFO [user_menu_app.py:21] Usuario: 2 
+Nombre: peppapig 
+Contraseña: 123
+03:18:22 PM: INFO [user_menu_app.py:21] Usuario: 3 
+Nombre: vanstrouble 
+Contraseña: 567
+03:18:22 PM: INFO [user_menu_app.py:21] Usuario: 4 
+Nombre: aidee.cov 
+Contraseña: 987
+03:21:12 PM: INFO [user_menu_app.py:21] Usuario: 2 
+Nombre: peppapig 
+Contraseña: 123
+03:21:12 PM: INFO [user_menu_app.py:21] Usuario: 3 
+Nombre: vanstrouble 
+Contraseña: 567
+03:21:12 PM: INFO [user_menu_app.py:21] Usuario: 4 
+Nombre: aidee.cov 
+Contraseña: 987
+03:21:44 PM: ERROR [cursor_pool.py:20] Ocurió una excepción: 'User' object has no attribute 'user_id' <class 'AttributeError'> <traceback object at 0x103874b40>
+03:22:54 PM: INFO [user_menu_app.py:42] Usuarios insertados: 1
+03:23:03 PM: INFO [user_menu_app.py:21] Usuario: 3 
+Nombre: vanstrouble 
+Contraseña: 567
+03:23:03 PM: INFO [user_menu_app.py:21] Usuario: 4 
+Nombre: aidee.cov 
+Contraseña: 987
+03:23:09 PM: INFO [user_menu_app.py:42] Usuarios insertados: 0
+03:23:29 PM: INFO [user_menu_app.py:45] Saliendo de la aplicación…
