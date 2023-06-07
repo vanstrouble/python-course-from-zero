@@ -1,0 +1,6 @@
+Pollo
+Carne
+Chocolate
+Agua
+Sal
+Pimienta
