@@ -20,7 +20,7 @@ def repr_decorator(cls):
     # Revisamos si se ha sobreescrito el método __init__
     if '__init__' not in attributes:
         raise TypeError(f'{cls.__name__} no ha sobreescrito el método __init__')
-    
+
     init_sign = inspect.signature(cls.__init__)
     print(f'Firma del método __init__: {init_sign}')
 
@@ -34,7 +34,14 @@ def repr_decorator(cls):
         # se está utilizando el decorador property
         if not isinstance(attributes.get(parameter), property):
             raise TypeError(f'El parámetro {parameter} no utiliza el método property')
-        
+
+    # Crear método repr dinámicamente
+    def repr_method(self, ):
+        return f'Resultado de ejecutar método repr'
+
+    # Agregar dinamicamente el método repr a nuestra clase
+    setattr(cls, '__repr__', repr_method)
+
     return cls
 
 
@@ -59,3 +66,4 @@ class Person(object):
 
 if __name__ == '__main__':
     p1 = Person('Aideé', 'Correa')
+    print(p1)
