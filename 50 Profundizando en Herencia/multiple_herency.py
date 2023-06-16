@@ -81,3 +81,15 @@ print(IntegerOrderedSet.__bases__)
 
 # MRO - Method Resolution Order
 print(IntegerOrderedSet.__mro__)
+
+# isinstance
+print('¿Es tipo entero?', isinstance(10, int))
+print('¿Es tipo entero?', isinstance('hi', int))
+
+print('¿Es una lista entera ordenada?', isinstance(int_sort_list, IntegerOrderedSet))
+print('¿Es una lista de enteros?', isinstance(int_sort_list, Integer_List))
+print('¿Es una lista ordenada?', isinstance(int_sort_list, Sorted_List))
+print('¿Es una lista simple?', isinstance(int_sort_list, Simple_List))
+print('¿Es una lista tipo Object?', isinstance(int_sort_list, object))
+
+print('¿Es de varios tipos?', isinstance(int_sort_list, (Integer_List, Simple_List)))
