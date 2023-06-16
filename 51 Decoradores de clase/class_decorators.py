@@ -27,6 +27,14 @@ def repr_decorator(cls):
     # Recuperamos los parámetros, excepto el primero que es self
     init_parameters  = list(init_sign.parameters)[1:]
     print(f'Parámetros init: {init_parameters}')
+
+    # Revisar si por cada parámetro tiene un método property asociado
+    for parameter in init_parameters:
+        # Property es un valor de tipo built-in para preguntar si 
+        # se está utilizando el decorador property
+        if not isinstance(attributes.get(parameter), property):
+            raise TypeError(f'El parámetro {parameter} no utiliza el método property')
+        
     return cls
 
 
