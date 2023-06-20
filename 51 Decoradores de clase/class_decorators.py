@@ -37,7 +37,24 @@ def repr_decorator(cls):
 
     # Crear método repr dinámicamente
     def repr_method(self, ):
-        return f'Resultado de ejecutar método repr'
+        # Obtenemos el nombre de la clase dinámicamente
+        class_name = self.__class__.__name__
+        print(f'Nombre de la clase: {class_name}')
+        
+        # Obtenemos el nombre de las propiedades y sus valores dinámicamente
+        # Expresión generadora
+        args_list = list(f'{name}={getattr(self, name)!r}' for name in init_parameters)
+        print(f'Lista del generaador: {args_list}')
+
+        # Creamos la cadena a partir de la lista de argumentos
+        args = ', '.join(args_list)
+        print(f'Argumentos del método repr: {args}')
+
+        # Creamos la forma del método repr a nuestra clase
+        repr_result = f'{class_name}({args})'
+        print(f'Resultado del método repr: {repr_result}')
+        
+        return repr_result
 
     # Agregar dinamicamente el método repr a nuestra clase
     setattr(cls, '__repr__', repr_method)
@@ -67,3 +84,7 @@ class Person(object):
 if __name__ == '__main__':
     p1 = Person('Aideé', 'Correa')
     print(p1)
+
+    p2 = Person('Pedro', 'Vázquez')
+    print(p2)
+    
