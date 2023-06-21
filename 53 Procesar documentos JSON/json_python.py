@@ -1,5 +1,6 @@
 # Leer el archivo JSON (Javascript Object Notation)
 
+import json
 from urllib.request import Request, urlopen
 
 url = Request("http://globalmentoring.com.mx/api/personas.json")
@@ -7,7 +8,11 @@ url.add_header('User-Agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap
 
 request = urlopen(url)
 
-print(f"Respuesta del servidor:\n{request}")
+print(f"Respuesta del servidor: {request}")
 
 body = request.read()
-print(f"Cuerpo del documento:\n{body}")
+# print(f"Cuerpo del documento:\n{body}")
+
+# Procesamos la respuesta
+json_response = json.loads(body.decode('utf-8'))
+print(f"\nJSON Response:\n{json_response}")
