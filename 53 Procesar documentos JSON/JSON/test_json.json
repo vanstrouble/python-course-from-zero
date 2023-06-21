@@ -1,0 +1,11 @@
+{
+  "personas": [
+    { "nombre": "Aideé Correa", "edad": "25" },
+    { "nombre": "Pedro Vázquez", "edad": "24" },
+    { "nombre": "Jessica Alarcón", "edad": "25" },
+    { "nombre": "Juan Rojas", "edad": "27" },
+    { "nombre": "Guillermo Contreras", "edad": "23" }
+  ],
+  "total": 5,
+  "mensaje": "exitoso"
+}
