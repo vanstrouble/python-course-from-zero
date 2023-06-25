@@ -7,6 +7,12 @@ window.geometry("600x400")
 window.title("Manejo de grid")
 window.iconbitmap("54 TKinter/icons/py_icns.icns")
 
+# Configuración del grid
+window.rowconfigure(0, weight=2)
+window.rowconfigure(1, weight=10)
+window.columnconfigure(0, weight=1)
+window.columnconfigure(1, weight=5)
+
 # Métodos de los eventos
 def clic_event(button):
     if button == 1:
@@ -20,15 +26,15 @@ def clic_event(button):
 
 # Definición de los botones
 button1 = tk.Button(window, text="Botón 1", command=lambda: clic_event(button=1))
-button1.grid(row=0, column=0, sticky="W")
+button1.grid(row=0, column=0, sticky="NSWE")
 
 button2 = tk.Button(window, text="Botón 2", command=lambda: clic_event(button=2))
-button2.grid(row=1, column=0, sticky="W")
+button2.grid(row=1, column=0, sticky="NSWE")
 
 button3 = tk.Button(window, text="Botón 3", command=lambda: clic_event(button=3))
-button3.grid(row=0, column=1, sticky="W")
+button3.grid(row=0, column=1, sticky="NSWE")
 
 button4 = tk.Button(window, text="Botón 4", command=lambda: clic_event(button=4))
-button4.grid(row=1, column=1, sticky="W")
+button4.grid(row=1, column=1, sticky="NSWE")
 
 window.mainloop()
