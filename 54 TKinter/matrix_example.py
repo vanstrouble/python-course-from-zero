@@ -17,12 +17,12 @@ window.columnconfigure(1, weight=5)
 def click_event(button):
     if button == 1:
         button1.config(text=f"Botón {button} presionado")
-    elif button == 2:
-        button2.config(text=f"Botón {button} presionado")
-    elif button == 3:
-        button3.config(text=f"Botón {button} presionado")
-    elif button == 4:
-        button4.config(text=f"Botón {button} presionado")
+    # elif button == 2:
+    #     button2.config(text=f"Botón {button} presionado")
+    # elif button == 3:
+    #     button3.config(text=f"Botón {button} presionado")
+    # elif button == 4:
+    #     button4.config(text=f"Botón {button} presionado")
 
 # Definición de los botones
 button1 = tk.Button(window, text="Botón 1", command=lambda: click_event(button=1))
