@@ -4,11 +4,13 @@ class MyClass:
 
     Atributos:
         public_variable (int): Variable pública accesible desde cualquier lugar.
-        _protected_variable (int): Variable protegida, su acceso está limitado a la clase y sus subclases.
+        _protected_variable (int): Variable protegida, su acceso está limitado a la clase
+        y sus subclases.
         __private_variable (int): Variable privada, su acceso está restringido a la clase.
 
     Métodos:
-        __init__(): Inicializa una instancia de MyClass con variables públicas, protegidas y privadas.
+        __init__(): Inicializa una instancia de MyClass con variables públicas,
+        protegidas y privadas.
     """
 
     # En Python, la nomenclatura de variables y métodos sigue ciertas convenciones:
